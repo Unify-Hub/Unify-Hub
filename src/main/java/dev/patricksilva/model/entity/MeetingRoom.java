@@ -1,4 +1,4 @@
-package UnifyData;
+package dev.patricksilva.model.entity;
 
 public class MeetingRoom {
 	private String roomCode;
@@ -6,5 +6,4 @@ public class MeetingRoom {
 	void chat() {
 		
 	}
-
 }
