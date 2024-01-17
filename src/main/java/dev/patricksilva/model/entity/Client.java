@@ -1,12 +1,9 @@
-package UnifyData;
+package dev.patricksilva.model.entity;
 
 public class Client {
-	
 	private String nome;
 	private String email;
 	private String password;
-	
-	
 	
 	void login() {
 		
@@ -39,8 +36,4 @@ public class Client {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	
-	
-	
 }
-
