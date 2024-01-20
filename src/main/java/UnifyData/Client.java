@@ -6,6 +6,16 @@ public class Client {
 	private String email;
 	private String password;
 	private Meeting meeting;
+                    
+        //Constructor(3 parâmetros)
+                   public Client(String nome, String email, String password){
+                        this.nome = nome;
+                        this.email = email;
+                        this.password = password;
+                    
+                    }
+        
+        
 	
 	
 	void login() {
