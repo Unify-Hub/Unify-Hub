@@ -4,9 +4,10 @@ public class Client {
 	private String nome;
 	private String email;
 	private String password;
+	private Meeting meeting;
 	
 	void login() {
-		
+		this.password = password;
 	}
 	
 	void register() {
