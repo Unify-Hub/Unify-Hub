@@ -5,7 +5,7 @@ public class Client {
 	private String nome;
 	private String email;
 	private String password;
-	
+	private Meeting meeting;
 	
 	
 	void login() {
@@ -40,6 +40,13 @@ public class Client {
 		this.password = password;
 	}
 	
+                    public Meeting getMeeting(){
+                            return meeting;
+                    }
+                    
+                    public void setMeeting(Meeting meeting){
+                            this.meeting = meeting;
+                    }
 	
 	
 }
